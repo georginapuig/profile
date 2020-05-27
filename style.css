@@ -1,0 +1,132 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #5e3e1b;
+  background-color: rgb(42, 40, 35);
+}
+
+.container {
+  width: 700px;
+  margin: 20px auto;
+}
+
+.card {
+  padding: 40px;
+  margin: 20px 0;
+  text-align: center;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+h1, h2 {
+  color: #192c44;
+}
+
+h1 {
+  margin: 0 auto 20px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 17.4px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.profile-img {
+  border-radius: 50%;
+}
+
+.btn {
+  background-color: #192438;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: #79644e;
+  transition: 0.3s;
+}
+
+#p-intro {
+  padding-bottom: 25px;
+}
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: #79644e;
+}
+
+i:hover {
+  color: #192438;
+  transition: 0.3s;
+}
+
+/*******************
+** MEDIA QUERIES  **
+*******************/
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .list-inline i {
+    font-size: 43px;
+  }
+
+  .btn {
+    padding: 13px 17px;
+    font-size: 15px;
+  }
+
+  .profile-img {
+    width: 100px;
+  }
+}
