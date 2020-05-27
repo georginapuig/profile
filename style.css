@@ -83,6 +83,25 @@ i:hover {
 }
 
 /*******************
+**** SCROLLBAR  ****
+*******************/
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(22,23,32);
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2f3234; 
+}
+
+/*******************
 ** MEDIA QUERIES  **
 *******************/
 
